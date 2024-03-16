@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  pyspark:
+    image: quay.io/jupyter/pyspark-notebook:latest
+    ports:
+      - "8888:8888"
+      - "8502:8502"
+    volumes:
+      - /mnt/c/Users/pedro/desktop/BigData:/BigData
+    environment:
+      JUPYTER_TOKEN: letmein
+      DOCKER_STACKS_JUPYTER_CMD: notebook
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]

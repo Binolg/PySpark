@@ -1,0 +1,1 @@
+{"class":"__main__.OneHotLoanType","timestamp":1705002133873,"sparkVersion":"3.5.0","uid":"OneHotLoanType_240f364623ce","paramMap":{"inputCol":"Type_of_loan","outputCol":"loan_type_vector"},"defaultParamMap":{"outputCol":"OneHotLoanType_240f364623ce__output"}}
