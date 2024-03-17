@@ -6,7 +6,7 @@ services:
       - "8888:8888"
       - "8502:8502"
     volumes:
-      - /mnt/c/Users/pedro/desktop/BigData:/BigData
+      - /mnt/c/Users/####/desktop/BigData:/BigData
     environment:
       JUPYTER_TOKEN: letmein
       DOCKER_STACKS_JUPYTER_CMD: notebook
