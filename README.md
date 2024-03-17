@@ -39,3 +39,7 @@ To run the project locally using Docker, follow these steps:
 - **Jupyter Notebooks**
 - **Docker**
 - **Git and GitHub**
+
+## Source
+
+The original dataset can be found in [Kaggle](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)
