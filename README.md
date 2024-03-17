@@ -1,40 +1,25 @@
-<a name="readme-top"></a>
+# Big Data Project Showcase
 
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-  </a>
+## Description
 
-<h3 align="center">Big Data</h3>
+This repository serves as a showcase for a school project developed using PySpark for Big Data processing. It aims to demonstrate the practical application of PySpark and related technologies in handling large datasets.
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
-</div>
+This project allowed me to learn, apply and highlight tools used for Big Data handling, and was also my first time using Docker as a tool for development.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Installation
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+To run the project locally using Docker, follow these steps:
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+1. Make sure you have Docker installed on your machine. If not, you can download and install it from [Docker's official website](https://www.docker.com/get-started).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
+## Technologies Used
 
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **PySpark**
+- **Python**
+- **Jupyter Notebooks**
+- **Docker**
+- **Git and GitHub**
