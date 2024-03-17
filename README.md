@@ -38,7 +38,6 @@ To run the project locally using Docker, follow these steps:
 - **Python**
 - **Jupyter Notebooks**
 - **Docker**
-- **Git and GitHub**
 
 ## Source
 
