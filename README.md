@@ -14,8 +14,15 @@ To run the project locally using Docker, follow these steps:
 
 2. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Binolg/PySpark.git
    ```
+3. Adjust the docker-compose.yaml file to your preference.
+
+4. Run the container:
+   ```bash
+   docker-compose up -d
+   ```
+
 ## Technologies Used
 
 - **PySpark**
