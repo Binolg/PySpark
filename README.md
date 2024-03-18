@@ -4,7 +4,7 @@
 
 This repository serves as a showcase for a school project developed using PySpark for Big Data processing. It aims to demonstrate the practical application of PySpark and related technologies in handling large datasets.
 
-This project allowed me to learn, apply, and highlight tools used for Big Data handling, and it was also my first time using Docker as a tool for development.
+This project allowed me to learn, apply, and highlight tools used for Big Data handling. Docker was used to 
 
 ### Structure
 The contents are divided into 6 stages:
