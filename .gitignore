@@ -1,7 +1,3 @@
-# Ignore compiled binaries
-*.exe
-*.o
-
 # Ignore temporary files
 *.tmp
 
