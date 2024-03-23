@@ -1,0 +1,16 @@
+# Ignore compiled binaries
+*.exe
+*.o
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Files
+output/
+dataset/clean_creditScores_orc/
+dataset/creditScores_avro/
+dataset/creditScores_csv/
+dataset/creditScores_json/
+dataset/creditScores_orc/
+dataset/creditScores_parquet/
+dataset/final_creditScores_orc/
