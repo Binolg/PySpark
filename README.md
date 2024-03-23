@@ -3,7 +3,6 @@
 ## Description
 
 This repository serves as a showcase for a school project developed using PySpark for Big Data processing. It aims to demonstrate the practical application of PySpark and related technologies in handling large datasets.
-This project allowed me to learn, apply, and highlight tools used for Big Data handling.
 
 ### Structure
 The contents are divided into 6 stages:
