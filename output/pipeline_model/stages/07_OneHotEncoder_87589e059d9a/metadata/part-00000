@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1705002141349,"sparkVersion":"3.5.0","uid":"OneHotEncoder_87589e059d9a","paramMap":{"outputCols":["Credit_Mix_oneHot"],"inputCols":["Credit_Mix_indexed"]},"defaultParamMap":{"handleInvalid":"error","dropLast":true,"outputCol":"OneHotEncoder_87589e059d9a__output"}}

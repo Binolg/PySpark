@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1705002148551,"sparkVersion":"3.5.0","uid":"OneHotEncoder_42a543ae10b2","paramMap":{"outputCols":["Payment_of_Min_Amount_oneHot"],"inputCols":["Payment_of_Min_Amount_indexed"]},"defaultParamMap":{"outputCol":"OneHotEncoder_42a543ae10b2__output","handleInvalid":"error","dropLast":true}}

@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1705002139771,"sparkVersion":"3.5.0","uid":"StringIndexer_d02b3207599c","paramMap":{"outputCol":"Credit_Mix_indexed","inputCol":"Credit_Mix","handleInvalid":"keep"},"defaultParamMap":{"outputCol":"StringIndexer_d02b3207599c__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}
