@@ -14,31 +14,17 @@ The contents are divided into 6 stages:
 - Deployment: Local deployment with Streamlit to showcase the best model in action
 
 ### Dataset
-The dataset used is artificialy generated to... 
+The dataset used is artificialy generated, to simulate ban data in regards to what might be useful to determinate a customer's credit score.
 
 #### Source
-The original dataset can be found in [Kaggle](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)
+The original dataset can be found in [Kaggle](https://www.kaggle.com/datasets/parisrohan/credit-score-classification).
 
-## Installation
+## Simplified PySpark Usage with Docker on WSL
 
-To run the project locally using Docker, follow these steps:
+To streamline the PySpark setup process without the need for Java installation or virtual machine usage, Docker was employed within the Windows Subsystem for Linux (WSL) environment.
 
-1. Make sure you have Docker installed on your machine. If not, you can download and install it from [Docker's official website](https://www.docker.com/get-started).
+Using the official [pyspark-notebook image](https://quay.io/repository/jupyter/pyspark-notebook), a container was created. Ports 8888 (for the Jupyter notebook) and 8502 (for Streamlit) were exposed for easier access. Additionally, a host directory was mounted into the container to facilitate file access.
 
-2. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/Binolg/PySpark.git
-   ```
-3. Adjust the docker-compose.yaml file to your preference.
+Although Nvidia GPU usage was configured for potential utilization, it was ultimately not required for the project's purposes.
 
-4. Run the container:
-   ```bash
-   docker-compose up -d
-   ```
-
-## Technologies Used
-
-- **PySpark**
-- **Python**
-- **Jupyter Notebooks**
-- **Docker**
+This setup provides a straightforward and efficient environment for PySpark development and experimentation, enhancing productivity and ease of use.
