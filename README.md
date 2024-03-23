@@ -26,5 +26,3 @@ To streamline the PySpark setup process without the need for Java installation o
 Using the official [pyspark-notebook image](https://quay.io/repository/jupyter/pyspark-notebook), a container was created. Ports 8888 (for the Jupyter notebook) and 8502 (for Streamlit) were exposed for easier access. Additionally, a host directory was mounted into the container to facilitate file access.
 
 Although Nvidia GPU usage was configured for potential utilization, it was ultimately not required for the project's purposes.
-
-This setup provides a straightforward and efficient environment for PySpark development and experimentation, enhancing productivity and ease of use.
